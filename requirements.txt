@@ -1,0 +1,17 @@
+# Core requirements
+python-dotenv
+pandas
+pandas_ta
+numpy
+requests
+
+# Alpaca API
+alpaca-trade-api
+
+# Azure SDKs
+azure-storage-blob
+azure-communication-email
+
+# For testing
+pytest
+websockets>=11.0.0
