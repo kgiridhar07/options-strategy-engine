@@ -4,8 +4,9 @@ import logging
 from azure.communication.email import EmailClient
 from config import AZURE_EMAIL_CONNECTION_STRING, AZURE_EMAIL_SENDER
 import json
+from utils.logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 def load_recipients(json_path):
     try:

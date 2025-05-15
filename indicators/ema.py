@@ -1,6 +1,9 @@
 # indicators/ema.py
 import pandas as pd
 import pandas_ta as ta
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def calculate_ema(prices, period=20):
     """

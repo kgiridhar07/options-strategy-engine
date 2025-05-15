@@ -1,7 +1,8 @@
 import logging
 import yfinance as yf
+from utils.logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 def get_next_earnings_and_dividend_dates(symbol: str):
     """

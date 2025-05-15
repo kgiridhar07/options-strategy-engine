@@ -1,6 +1,9 @@
 # indicators/bollinger.py
 import pandas as pd
 import pandas_ta as ta
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def calculate_bollinger_bands(prices, period=20, std=2):
     """
