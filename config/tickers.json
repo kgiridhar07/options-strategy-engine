@@ -1,21 +1,5 @@
 {
-  "tickers": [ "COIN",
-    "AAPL",
-    "MSFT",
-    "GOOGL",
-    "AMZN",
-    "TSLA",
-    "NFLX",
-    "META",
-    "NVDA",
-    "AMD",
-    "INTC",
-    "IBM",
-    "ORCL",
-    "CSCO",
-    "ADBE",
-    "CRM"
-  ]
+"tickers" : ["COIN","ELF"]
 }
 
 

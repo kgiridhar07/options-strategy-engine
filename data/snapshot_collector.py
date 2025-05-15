@@ -1,5 +1,8 @@
 # Collects stock and options data using Alpaca
 from utils import alpaca_api
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 def get_full_snapshot(symbol):

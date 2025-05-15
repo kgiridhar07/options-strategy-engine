@@ -1,6 +1,9 @@
 # Loads tickers from config/tickers.json
 import json
 import os
+from utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 def load_tickers(json_path=None):
     if json_path is None:

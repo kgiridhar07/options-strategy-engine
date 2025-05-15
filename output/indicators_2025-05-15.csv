@@ -1,0 +1,2 @@
+ticker,current_price,basic_snapshot,previous_close,percent_change,latest_volume,rsi_14,sma_20,sma_50,sma_200,ema_12,ema_20,ema_50,ema_200,macd,macd_signal,bb_upper,bb_middle,bb_lower,atr_14,adx_14,support_20,resistance_20,support_75,resistance_75,support_200,resistance_200,earnings_date,dividend_date,ex_dividend_date
+COIN,256.66,256.66,257.17,-0.2,309418.0,76.04,203.37,191.86,225.27,217.16,208.26,205.74,219.0,12.15,5.64,247.07,203.37,159.66,13.89,19.43,168.57,264.41,193.4,305.97,193.9,208.91,2025-07-30,,

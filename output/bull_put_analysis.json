@@ -1,0 +1,51 @@
+[
+  {
+    "ticker": "COIN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "strongly overbought",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      }
+    },
+    "combined_signal": {
+      "value": 0.16949152542372883,
+      "text": "Weakly Bullish"
+    }
+  }
+]

@@ -12,12 +12,18 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockLatestTradeRequest
 from alpaca.data.requests import StockSnapshotRequest
 from alpaca.data.requests import StockBarsRequest
+from alpaca.data import OptionHistoricalDataClient
 from alpaca.data.timeframe import TimeFrame
 from datetime import datetime
+from alpaca.data.requests import OptionChainRequest, OptionSnapshotRequest
+from utils.logger import get_logger
 
 # Instantiate clients
 trade_client = TradingClient(api_key=ALPACA_API_KEY, secret_key=ALPACA_API_SECRET, paper=True)
 stock_data_client = StockHistoricalDataClient(api_key=ALPACA_API_KEY, secret_key=ALPACA_API_SECRET)
+option_client = OptionHistoricalDataClient(api_key=ALPACA_API_KEY, secret_key=ALPACA_API_SECRET)
+
+logger = get_logger(__name__)
 
 # Raw helpers
 
@@ -59,4 +65,21 @@ def get_raw_historical_bars(symbol, timeframe, start, end, feed=None):
     req = StockBarsRequest(**req_kwargs)
     bars = stock_data_client.get_stock_bars(req)
     return bars[symbol]
+
+def get_option_chain(symbol, expiration_date_gte=None, expiration_date_lte=None):
+    """
+    Fetch the option chain for a symbol and optional expiration date range.
+    Returns a list of option contract dicts (flattened from nested dict if needed).
+    """
+    req_kwargs = {'underlying_symbol': symbol}
+    if expiration_date_gte:
+        req_kwargs['expiration_date_gte'] = expiration_date_gte
+    if expiration_date_lte:
+        req_kwargs['expiration_date_lte'] = expiration_date_lte
+    req = OptionChainRequest(**req_kwargs)
+    chain = option_client.get_option_chain(req)
+    return chain
+
+
+
 

@@ -1,0 +1,83 @@
+{
+  "indicators": {
+    "rsi_14": { "weight": 6, "category": "momentum" },
+    "sma_20": { "weight": 5, "category": "trend" },
+    "sma_50": { "weight": 8, "category": "trend" },
+    "sma_200": { "weight": 9, "category": "trend" },
+    "ema_12": { "weight": 5, "category": "trend" },
+    "ema_20": { "weight": 6, "category": "trend" },
+    "ema_50": { "weight": 6, "category": "trend" },
+    "ema_200": { "weight": 7, "category": "trend" },
+    "macd": { "weight": 7, "category": "momentum" },
+    "macd_signal": { "weight": 6, "category": "momentum" },
+    "bb_upper": { "weight": 5, "category": "volatility" },
+    "bb_middle": { "weight": 4, "category": "volatility" },
+    "bb_lower": { "weight": 5, "category": "volatility" },
+    "atr_14": { "weight": 7, "category": "volatility" },
+    "adx_14": { "weight": 7, "category": "trend" },
+    "support_20": { "weight": 8, "category": "support_resistance" },
+    "resistance_20": { "weight": 8, "category": "support_resistance" },
+    "support_75": { "weight": 7, "category": "support_resistance" },
+    "resistance_75": { "weight": 7, "category": "support_resistance" },
+    "support_200": { "weight": 6, "category": "support_resistance" },
+    "resistance_200": { "weight": 6, "category": "support_resistance" }
+  },
+  "strategies": [
+    {
+      "name": "Trend Crossover: SMA",
+      "combo": ["sma_50", "sma_200"],
+      "signal": "bullish if sma_50 > sma_200; bearish if sma_50 < sma_200",
+      "type": "trend_crossover",
+      "weight": 9
+    },
+    {
+      "name": "Trend Crossover: EMA",
+      "combo": ["ema_20", "ema_50"],
+      "signal": "bullish if ema_20 > ema_50; bearish if ema_20 < ema_50",
+      "type": "trend_crossover",
+      "weight": 7
+    },
+    {
+      "name": "Trend Strength with ADX",
+      "combo": ["adx_14", "sma_50", "sma_200"],
+      "signal": "strong trend if adx_14 > 20 and sma_50 > sma_200 for bullish or sma_50 < sma_200 for bearish",
+      "type": "trend_strength",
+      "weight": 8
+    },
+    {
+      "name": "MACD Crossover",
+      "combo": ["macd", "macd_signal"],
+      "signal": "bullish crossover if macd > macd_signal; bearish if macd < macd_signal",
+      "type": "momentum_shift",
+      "weight": 6
+    },
+    {
+      "name": "Overbought/Oversold with RSI & Bollinger Bands",
+      "combo": ["rsi_14", "bb_upper", "bb_lower"],
+      "signal": "overbought if rsi_14 > 70 and price near bb_upper; oversold if rsi_14 < 30 and price near bb_lower",
+      "type": "mean_reversion",
+      "weight": 7
+    },
+    {
+      "name": "Support Confirmation for Bull Put",
+      "combo": ["support_20", "sma_50", "sma_200"],
+      "signal": "strong support zone if price above support_20, sma_50 and sma_200; ideal for short put leg",
+      "type": "strike_selection",
+      "weight": 8
+    },
+    {
+      "name": "Resistance Confirmation for Bear Call",
+      "combo": ["resistance_20", "sma_50", "sma_200"],
+      "signal": "strong resistance zone if price below resistance_20, sma_50 and sma_200; ideal for short call leg",
+      "type": "strike_selection",
+      "weight": 8
+    },
+    {
+      "name": "High Volatility Opportunity",
+      "combo": ["atr_14", "bb_upper", "bb_lower"],
+      "signal": "high premium potential if atr_14 is elevated and bb range is wide; ensure trend direction is favorable",
+      "type": "volatility_filter",
+      "weight": 6
+    }
+  ]
+}
