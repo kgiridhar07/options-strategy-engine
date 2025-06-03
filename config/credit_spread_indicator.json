@@ -20,7 +20,12 @@
     "support_75": { "weight": 7, "category": "support_resistance" },
     "resistance_75": { "weight": 7, "category": "support_resistance" },
     "support_200": { "weight": 6, "category": "support_resistance" },
-    "resistance_200": { "weight": 6, "category": "support_resistance" }
+    "resistance_200": { "weight": 6, "category": "support_resistance" },
+    "pct_ytd_return": { "weight": 7, "category": "performance" },
+    "low_52w": { "weight": 8, "category": "price_range" },
+    "high_52w": { "weight": 8, "category": "price_range" },
+    "pct_from_52w_low": { "weight": 8, "category": "price_range" },
+    "pct_from_52w_high": { "weight": 8, "category": "price_range" }
   },
   "strategies": [
     {
@@ -78,6 +83,13 @@
       "signal": "high premium potential if atr_14 is elevated and bb range is wide; ensure trend direction is favorable",
       "type": "volatility_filter",
       "weight": 6
+    }
+    ,{
+      "name": "Relative Strength & Position for Bull Put",
+      "combo": ["pct_ytd_return", "low_52w", "high_52w", "pct_from_52w_low", "pct_from_52w_high"],
+      "signal": "Evaluates stock's YTD performance and current position relative to 52-week high/low for bullish support. Strongly Bullish if positive YTD, well above 52w low and not far from 52w high. Moderately Bullish if decent YTD, good distance from 52w low. Neutral if mixed. Weakly Bearish if underperforming and closer to 52w low. Strongly Bearish if significantly negative YTD and near 52w low.",
+      "type": "relative_strength",
+      "weight": 9
     }
   ]
 }

@@ -1,0 +1,3308 @@
+[
+  {
+    "ticker": "ASAN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.48529411764705876,
+      "text": "Weakly Bullish"
+    },
+    "earnings_nearby": true,
+    "earnings_date": "2025-06-03",
+    "days_to_earnings": 0
+  },
+  {
+    "ticker": "ORCL",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.13235294117647053,
+      "text": "Neutral"
+    },
+    "earnings_nearby": true,
+    "earnings_date": "2025-06-09",
+    "days_to_earnings": 6
+  },
+  {
+    "ticker": "AAPL",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "GOOGL",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.014705882352941207,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-21",
+    "days_to_earnings": 48
+  },
+  {
+    "ticker": "AMZN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.13235294117647053,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "MSFT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.485294117647059,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-28",
+    "days_to_earnings": 55
+  },
+  {
+    "ticker": "TSLA",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.2205882352941178,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-21",
+    "days_to_earnings": 48
+  },
+  {
+    "ticker": "NFLX",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.4117647058823528,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-16",
+    "days_to_earnings": 43
+  },
+  {
+    "ticker": "META",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.13235294117647065,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "NVDA",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.13235294117647053,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-27",
+    "days_to_earnings": 85
+  },
+  {
+    "ticker": "AMD",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.45588235294117657,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-28",
+    "days_to_earnings": 55
+  },
+  {
+    "ticker": "INTC",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "CSCO",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "neutral",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.1911764705882353,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-13",
+    "days_to_earnings": 71
+  },
+  {
+    "ticker": "ADBE",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.45588235294117657,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": true,
+    "earnings_date": "2025-06-12",
+    "days_to_earnings": 9
+  },
+  {
+    "ticker": "PYPL",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7205882352941178,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "CRM",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.3676470588235294,
+      "text": "Strongly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-26",
+    "days_to_earnings": 84
+  },
+  {
+    "ticker": "BABA",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.41176470588235303,
+      "text": "Weakly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-13",
+    "days_to_earnings": 71
+  },
+  {
+    "ticker": "VZ",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.0147058823529411,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-21",
+    "days_to_earnings": 48
+  },
+  {
+    "ticker": "T",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.4117647058823528,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-23",
+    "days_to_earnings": 50
+  },
+  {
+    "ticker": "DIS",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.2205882352941178,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-05",
+    "days_to_earnings": 63
+  },
+  {
+    "ticker": "WMT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.4117647058823528,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-21",
+    "days_to_earnings": 79
+  },
+  {
+    "ticker": "KO",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.7794117647058825,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-21",
+    "days_to_earnings": 48
+  },
+  {
+    "ticker": "PEP",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-09",
+    "days_to_earnings": 36
+  },
+  {
+    "ticker": "PFE",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.42647058823529416,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-28",
+    "days_to_earnings": 55
+  },
+  {
+    "ticker": "JNJ",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.6617647058823529,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-16",
+    "days_to_earnings": 43
+  },
+  {
+    "ticker": "MRK",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "weakly bearish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7941176470588235,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "ABT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.6617647058823529,
+      "text": "Weakly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-16",
+    "days_to_earnings": 43
+  },
+  {
+    "ticker": "UNH",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "weakly bearish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.1470588235294117,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "CVX",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.6617647058823529,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-31",
+    "days_to_earnings": 58
+  },
+  {
+    "ticker": "XOM",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-31",
+    "days_to_earnings": 58
+  },
+  {
+    "ticker": "BA",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.4117647058823528,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "MMM",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.0588235294117647,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-24",
+    "days_to_earnings": 51
+  },
+  {
+    "ticker": "CAT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.45588235294117657,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-05",
+    "days_to_earnings": 63
+  },
+  {
+    "ticker": "GE",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.7647058823529411,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-22",
+    "days_to_earnings": 49
+  },
+  {
+    "ticker": "IBM",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.0588235294117647,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-23",
+    "days_to_earnings": 50
+  },
+  {
+    "ticker": "INTU",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.3676470588235294,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-20",
+    "days_to_earnings": 78
+  },
+  {
+    "ticker": "ORCL",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.13235294117647053,
+      "text": "Neutral"
+    },
+    "earnings_nearby": true,
+    "earnings_date": "2025-06-09",
+    "days_to_earnings": 6
+  },
+  {
+    "ticker": "QCOM",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7794117647058825,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "TXN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.10294117647058826,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-21",
+    "days_to_earnings": 48
+  },
+  {
+    "ticker": "AVGO",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.7647058823529411,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": true,
+    "earnings_date": "2025-06-05",
+    "days_to_earnings": 2
+  },
+  {
+    "ticker": "AMAT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.10294117647058826,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-13",
+    "days_to_earnings": 71
+  },
+  {
+    "ticker": "LRCX",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7205882352941178,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-29",
+    "days_to_earnings": 56
+  },
+  {
+    "ticker": "ADI",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.2205882352941178,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-19",
+    "days_to_earnings": 77
+  },
+  {
+    "ticker": "MU",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.2647058823529411,
+      "text": "Weakly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-06-25",
+    "days_to_earnings": 22
+  },
+  {
+    "ticker": "GILD",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.4117647058823528,
+      "text": "Strongly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-06",
+    "days_to_earnings": 64
+  },
+  {
+    "ticker": "VRTX",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bullish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.485294117647059,
+      "text": "Weakly Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "REGN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "weakly bearish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.5,
+      "text": "Strongly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "BIIB",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "weakly bearish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.5588235294117647,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-30",
+    "days_to_earnings": 57
+  },
+  {
+    "ticker": "AMGN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7794117647058824,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-04",
+    "days_to_earnings": 62
+  },
+  {
+    "ticker": "BMY",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.7794117647058824,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-31",
+    "days_to_earnings": 58
+  },
+  {
+    "ticker": "LLY",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-07",
+    "days_to_earnings": 65
+  },
+  {
+    "ticker": "AZN",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "neutral",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.22058823529411767,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-28",
+    "days_to_earnings": 55
+  },
+  {
+    "ticker": "NVS",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bullish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bullish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "strongly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 1.0147058823529411,
+      "text": "Medium Bullish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-16",
+    "days_to_earnings": 43
+  },
+  {
+    "ticker": "SNY",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bearish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.0147058823529411,
+      "text": "Medium Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-31",
+    "days_to_earnings": 58
+  },
+  {
+    "ticker": "RHHBY",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "neutral",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "neutral",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "neutral",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "normal volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": 0.0,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-23",
+    "days_to_earnings": 50
+  },
+  {
+    "ticker": "ABBV",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "medium bullish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.16176470588235298,
+      "text": "Neutral"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-23",
+    "days_to_earnings": 50
+  },
+  {
+    "ticker": "TMO",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "strongly bearish",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "strongly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "strongly bearish",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -1.4117647058823528,
+      "text": "Strongly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-07-22",
+    "days_to_earnings": 49
+  },
+  {
+    "ticker": "MDT",
+    "signals": {
+      "Trend Crossover: SMA": {
+        "signal": "strongly bearish",
+        "type": "trend_crossover",
+        "weight": 9
+      },
+      "Trend Crossover: EMA": {
+        "signal": "medium bearish",
+        "type": "trend_crossover",
+        "weight": 7
+      },
+      "Trend Strength with ADX": {
+        "signal": "weakly neutral",
+        "type": "trend_strength",
+        "weight": 8
+      },
+      "MACD Crossover": {
+        "signal": "bullish crossover",
+        "type": "momentum_shift",
+        "weight": 6
+      },
+      "Overbought/Oversold with RSI & Bollinger Bands": {
+        "signal": "neutral",
+        "type": "mean_reversion",
+        "weight": 7
+      },
+      "Support Confirmation for Bull Put": {
+        "signal": "weakly bullish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "Resistance Confirmation for Bear Call": {
+        "signal": "weakly bearish",
+        "type": "strike_selection",
+        "weight": 8
+      },
+      "High Volatility Opportunity": {
+        "signal": "high volatility",
+        "type": "volatility_filter",
+        "weight": 6
+      },
+      "Relative Strength & Position for Bull Put": {
+        "signal": "neutral",
+        "type": "relative_strength",
+        "weight": 9
+      }
+    },
+    "combined_signal": {
+      "value": -0.42647058823529416,
+      "text": "Weakly Bearish"
+    },
+    "earnings_nearby": false,
+    "earnings_date": "2025-08-19",
+    "days_to_earnings": 77
+  }
+]
