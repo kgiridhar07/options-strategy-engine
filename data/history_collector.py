@@ -2,6 +2,10 @@
 """
 Historical data fetching functions using Alpaca raw data helpers.
 """
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from utils.alpaca_api import get_raw_historical_bars
 from alpaca.data.timeframe import TimeFrame
 from datetime import datetime, timedelta, timezone
@@ -42,16 +46,20 @@ def get_historical_closes(symbol, lookback_days=30):
     return closes
 
 
-def get_historical_ohlc(symbol, lookback_days=30):
+def get_historical_ohlc(symbol, lookback_days=30, end_date=None):
     """
-    Fetch historical daily OHLC for a symbol.
+    Fetch historical daily OHLC for a symbol up to a specific end date.
     Args:
         symbol (str): Ticker symbol
         lookback_days (int): Number of days to look back
+        end_date (datetime, optional): The end date for the data (inclusive, UTC). Defaults to now.
     Returns:
         tuple: (closes, highs, lows) as lists (most recent last), or empty lists if not enough data
     """
-    end = datetime.now(tz=timezone.utc)
+    if end_date is None:
+        end = datetime.now(tz=timezone.utc)
+    else:
+        end = end_date
     start = end - timedelta(days=lookback_days)
     try:
         bars = get_raw_historical_bars(symbol, TimeFrame.Day, start, end, feed='iex')

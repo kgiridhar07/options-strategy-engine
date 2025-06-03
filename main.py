@@ -19,6 +19,7 @@ from indicators.adx import calculate_adx
 from data.corporate_events import get_next_earnings_and_dividend_dates
 from data.options_collector import collect_options_data
 from indicators.support_resistance import find_strong_swing_levels_from_arrays
+from indicators.ytd_52w import get_ytd_52w_indicators_for_ticker
 import logging
 from azure.storage.blob import BlobServiceClient
 import os
@@ -72,10 +73,10 @@ def collect_snapshots(tickers):
 
 def write_csv(filename, csv_rows):
     # Ensure output directory and path
-    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    INDICATOR_OUT_DIR = os.path.join(PROJECT_ROOT, 'output', 'indicator_out')
+    os.makedirs(INDICATOR_OUT_DIR, exist_ok=True)
     if not os.path.isabs(filename):
-        filename = os.path.join(OUTPUT_DIR, filename)
+        filename = os.path.join(INDICATOR_OUT_DIR, filename)
     with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(csv_rows)
@@ -91,9 +92,11 @@ def collect_stock_data(tickers, today_str, corporate_events=None):
         "support_20", "resistance_20",
         "support_75", "resistance_75",
         "support_200", "resistance_200",
+        # --- YTD/52W INDICATORS ---
+        "pct_ytd_return", "low_52w", "high_52w", "range_pos_pct", "pct_from_52w_high", "pct_from_52w_low",
         "earnings_date", "dividend_date", "ex_dividend_date"
     ]
-    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output')
+    OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'output', 'indicator_out')
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     out_path = os.path.join(OUTPUT_DIR, filename)
     with open(out_path, "w", newline="") as f:
@@ -131,6 +134,8 @@ def collect_stock_data(tickers, today_str, corporate_events=None):
             support_20, resistance_20 = get_swing_sr(highs, lows, 20)
             support_75, resistance_75 = get_swing_sr(highs, lows, 75)
             support_200, resistance_200 = get_swing_sr(highs, lows, 200)
+            # --- YTD/52W INDICATORS ---
+            ytd_52w = get_ytd_52w_indicators_for_ticker(ticker, today_str)
             ce = corporate_events[ticker] if corporate_events and ticker in corporate_events else {}
             row = [
                 ticker,
@@ -160,6 +165,14 @@ def collect_stock_data(tickers, today_str, corporate_events=None):
                 round(resistance_75, 2) if resistance_75 is not None else None,
                 round(support_200, 2) if support_200 is not None else None,
                 round(resistance_200, 2) if resistance_200 is not None else None,
+                # --- YTD/52W INDICATORS ---
+                ytd_52w['ytd_return'],
+                ytd_52w['low_52w'],
+                ytd_52w['high_52w'],
+                ytd_52w['range_pos_pct'],
+                ytd_52w['pct_from_52w_high'],
+                ytd_52w['pct_from_52w_low'],
+                # --- CORPORATE EVENTS ---
                 ce.get('earnings_date'),
                 ce.get('dividend_date'),
                 ce.get('ex_dividend_date')
