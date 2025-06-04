@@ -339,6 +339,10 @@ def analyze_all_stocks(config_path=None, csv_path=None):
     results = []
     for _, row in df.iterrows():
         analysis = analyze_stock(row, config) # analyze_stock now handles earnings itself
+        # Add current_price, high_52w, and low_52w from indicator CSV to the analysis output
+        analysis['current_price'] = row.get('current_price')
+        analysis['high_52w'] = row.get('high_52w')
+        analysis['low_52w'] = row.get('low_52w')
         results.append(analysis)
     return results
 
