@@ -4,6 +4,8 @@ pandas
 pandas_ta
 numpy
 requests
+yfinance
+lxml
 
 # Alpaca API
 alpaca-trade-api
